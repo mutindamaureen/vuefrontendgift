@@ -54,7 +54,7 @@ export default {
   methods: {
     getLatestProducts(){
         axios
-            .get(`https://patient-radiance-production.up.railway.app/api/v1/latest-products/`)
+            .get('https://patient-radiance-production.up.railway.app/api/v1/latest-products/')
             .then((response) => {
                 this.latestProducts = response.data
             })

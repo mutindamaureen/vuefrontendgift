@@ -73,7 +73,7 @@ export default {
                 }
 
                 axios
-                    .post(`https://patient-radiance-production.up.railway.app/api/v1/users/`, formData)
+                    .post("https://patient-radiance-production.up.railway.app/api/v1/users/", formData)
                     .then(response =>{
                         toast({
                             message: 'account created successfully please log in',

@@ -39,7 +39,7 @@ export default{
     },
     methods: {
         logout(){
-            axios.defaults.headers.common['Authorization'] = "" 
+            axios.defaults.headers.common['Authorization'] = ""
 
             localStorage.removeItem("token")
             localStorage.removeItem("username")
